@@ -1,0 +1,179 @@
+{
+	"id": "10730be7-9f77-d0dc-c7cc-58afc4ebb9fc",
+	"name": "Node Stock",
+	"description": "",
+	"order": [
+		"97ab86d4-a49d-e61a-978e-ff101af45bdd",
+		"d303d516-6562-0e27-ee6a-fc5af8b953b7",
+		"066a3ef5-0ddc-5518-2750-e371e7bbc3ed",
+		"2f91cf73-1877-910f-1c8c-d6416f55fc73",
+		"040679c7-763f-f063-9e75-bf4457309052"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1556365210991,
+	"owner": "5906365",
+	"public": false,
+	"requests": [
+		{
+			"id": "040679c7-763f-f063-9e75-bf4457309052",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5001/api/stocks/tickerSearch",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "10730be7-9f77-d0dc-c7cc-58afc4ebb9fc",
+			"data": null,
+			"dataMode": "params",
+			"name": "Ticker Search",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1556370149920,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "066a3ef5-0ddc-5518-2750-e371e7bbc3ed",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5001/api/stocks/timeFrame?from=2016-01-01&to=2016-01-05",
+			"queryParams": [
+				{
+					"key": "from",
+					"value": "2016-01-01",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "to",
+					"value": "2016-01-05",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "10730be7-9f77-d0dc-c7cc-58afc4ebb9fc",
+			"data": null,
+			"dataMode": "params",
+			"name": "Time Frame",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1556370111357,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "2f91cf73-1877-910f-1c8c-d6416f55fc73",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5001/api/stocks/stocksInTime?from=2016-01-01&to=2016-01-05&companyName=A",
+			"queryParams": [
+				{
+					"key": "from",
+					"value": "2016-01-01",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "to",
+					"value": "2016-01-05",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "companyName",
+					"value": "A",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "10730be7-9f77-d0dc-c7cc-58afc4ebb9fc",
+			"data": null,
+			"dataMode": "params",
+			"name": "Stocks In Time",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1556370137318,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "97ab86d4-a49d-e61a-978e-ff101af45bdd",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5001/api/stocks",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "10730be7-9f77-d0dc-c7cc-58afc4ebb9fc",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get All Stock",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1556370062869,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d303d516-6562-0e27-ee6a-fc5af8b953b7",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5001/api/stocks/companySearch?companyName=A",
+			"queryParams": [
+				{
+					"key": "companyName",
+					"value": "A",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "10730be7-9f77-d0dc-c7cc-58afc4ebb9fc",
+			"data": null,
+			"dataMode": "params",
+			"name": "Company Search",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1556370096939,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
